@@ -1,0 +1,35 @@
+{
+  "name": "phapi/cache-nullcache",
+  "description": "Phapi NullCache is a fallback cache package with a fake cache storage.",
+  "keywords": [
+    "cache", "nullcache", "phapi"
+  ],
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "homepage": "http://phapi.github.io",
+  "authors": [
+    {
+      "name": "Peter Ahinko",
+      "email": "peter@ahinko.se",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "phapi/contract": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.6.*",
+    "mockery/mockery": "0.9.*",
+    "codeclimate/php-test-reporter": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Phapi\\Cache\\": "src/Phapi/Cache/",
+      "Phapi\\Di\\Validator\\": "src/Phapi/Di/Validator/",
+      "Phapi\\Tests\\Cache\\": "tests/Phapi/Cache/",
+      "Phapi\\Tests\\Di\\Validator\\": "tests/Phapi/Di/Validator/"
+    }
+  }
+}
