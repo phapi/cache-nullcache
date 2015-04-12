@@ -36,7 +36,7 @@ There are two simple rules when implementing a new cache package:
 
 
 ## License
-Phapi Di Container is licensed under the MIT License - see the LICENSE file for details
+Phapi NullCache is licensed under the MIT License - see the LICENSE file for details
 
 ## Contribute
-Contribution, bug fixes etc are [always welcome](https://github.com/phapi/di/issues/new).
+Contribution, bug fixes etc are [always welcome](https://github.com/phapi/cache-nullcache/issues/new).
