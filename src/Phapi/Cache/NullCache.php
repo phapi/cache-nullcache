@@ -21,7 +21,7 @@ use Phapi\Contract\Cache;
  * @package  Phapi\Cache
  * @author   Peter Ahinko <peter@ahinko.se>
  * @license  MIT (http://opensource.org/licenses/MIT)
- * @link     https://github.com/ahinko/phapi
+ * @link     https://github.com/phapi/cache-nullcache
  */
 class NullCache implements Cache {
 
