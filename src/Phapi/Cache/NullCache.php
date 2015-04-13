@@ -2,7 +2,7 @@
 
 namespace Phapi\Cache;
 
-use Phapi\Contract\Cache;
+use Phapi\Contract\Cache\Cache;
 
 /**
  * NullCache

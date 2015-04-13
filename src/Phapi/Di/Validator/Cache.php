@@ -5,7 +5,7 @@ namespace Phapi\Di\Validator;
 use Phapi\Cache\NullCache;
 use Phapi\Contract\Di\Container;
 use Phapi\Contract\Di\Validator;
-use Phapi\Contract\Cache as CacheContract;
+use Phapi\Contract\Cache\Cache as CacheContract;
 
 /**
  * Class Cache

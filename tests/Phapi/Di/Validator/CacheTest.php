@@ -2,7 +2,6 @@
 
 namespace Phapi\Tests\Di\Validator;
 
-use Mockery\Mock;
 use Phapi\Di\Validator\Cache;
 use PHPUnit_Framework_TestCase as TestCase;
 
@@ -35,7 +34,7 @@ class CacheTest extends TestCase
     public function testValidCache()
     {
         $closure = function ($app) {
-            $cache = \Mockery::mock('Phapi\Cache\Memcache', 'Phapi\Contract\Cache');
+            $cache = \Mockery::mock('Phapi\Cache\Memcache', 'Phapi\Contract\Cache\Cache');
 
             return $cache;
         };

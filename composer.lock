@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "879f59e42b467d85b862e0f0707a48f7",
+    "hash": "87b06350b2bb9db4c8fc220ac68b7ad7",
     "packages": [
         {
             "name": "phapi/contract",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phapi/contract.git",
-                "reference": "71f478ca53a04f341de5f829457db0801c930a50"
+                "reference": "ba5c25bcc1cc80d2fc0185b095df9d5664394d70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phapi/contract/zipball/71f478ca53a04f341de5f829457db0801c930a50",
-                "reference": "71f478ca53a04f341de5f829457db0801c930a50",
+                "url": "https://api.github.com/repos/phapi/contract/zipball/ba5c25bcc1cc80d2fc0185b095df9d5664394d70",
+                "reference": "ba5c25bcc1cc80d2fc0185b095df9d5664394d70",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "interfaces",
                 "phapi"
             ],
-            "time": "2015-04-12 10:47:05"
+            "time": "2015-04-13 10:49:00"
         }
     ],
     "packages-dev": [
