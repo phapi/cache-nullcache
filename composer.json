@@ -27,7 +27,11 @@
   "autoload": {
     "psr-4": {
       "Phapi\\Cache\\": "src/Phapi/Cache/",
-      "Phapi\\Di\\Validator\\": "src/Phapi/Di/Validator/",
+      "Phapi\\Di\\Validator\\": "src/Phapi/Di/Validator/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
       "Phapi\\Tests\\Cache\\": "tests/Phapi/Cache/",
       "Phapi\\Tests\\Di\\Validator\\": "tests/Phapi/Di/Validator/"
     }
