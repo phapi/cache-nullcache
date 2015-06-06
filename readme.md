@@ -4,6 +4,9 @@ Phapi NullCache is a fallback cache package that acts like a working cache but i
 
 Phapi has one important rule regarding cache: A working cache should **not** be a requirement for the application to work. So if Phapi is unable to connect to the cache backend it wont stop the execution. Instead the configured cache will be replaced with a dummy cache, <code>new NullCache()</code>.
 
+## Installation & configuration
+The package is by default included by the Phapi framework.
+
 ## General cache usage
 ```php
 <?php
