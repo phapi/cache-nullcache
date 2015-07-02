@@ -18,7 +18,8 @@ use Phapi\Contract\Cache\Cache;
  * @license  MIT (http://opensource.org/licenses/MIT)
  * @link     https://github.com/phapi/cache-nullcache
  */
-class NullCache implements Cache {
+class NullCache implements Cache
+{
 
     public function clear($key)
     {

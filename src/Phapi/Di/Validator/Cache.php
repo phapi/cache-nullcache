@@ -16,7 +16,8 @@ use Phapi\Contract\Cache\Cache as CacheContract;
  * @license  MIT (http://opensource.org/licenses/MIT)
  * @link     https://github.com/phapi/cache-nullcache
  */
-class Cache implements Validator {
+class Cache implements Validator
+{
 
     /**
      * Dependency Injector Container
