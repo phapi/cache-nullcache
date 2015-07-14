@@ -1,4 +1,7 @@
 # Phapi NullCache
+[![Build status](https://img.shields.io/travis/phapi/cache-nullcache.svg?style=flat-square)](https://travis-ci.org/phapi/cache-nullcache)
+[![Code Climate](https://img.shields.io/codeclimate/github/phapi/cache-nullcache.svg?style=flat-square)](https://codeclimate.com/github/phapi/cache-nullcache)
+[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/phapi/cache-nullcache.svg?style=flat-square)](https://codeclimate.com/github/phapi/cache-nullcache/coverage)
 
 Phapi NullCache is a fallback cache package that acts like a working cache but it really doesn't. The benefit is that if no other cache has been configured the NullCache will be used. Every time the cache is called in the code the NullCache will act like a real cache so that the application doesn't break.
 
